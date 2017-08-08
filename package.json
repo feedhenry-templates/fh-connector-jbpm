@@ -20,7 +20,6 @@
     "grunt-node-inspector": ">=0.2.0",
     "grunt-nodemon": "0.4.2",
     "grunt-open": "~0.2.3",
-    "grunt-plato": "~1.0.0",
     "grunt-shell": "^0.7.0",
     "istanbul": "0.2.7",
     "load-grunt-tasks": "^0.4.0",
