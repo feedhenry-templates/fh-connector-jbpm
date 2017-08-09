@@ -17,7 +17,7 @@
 
 ### Adding Unit Tests
 
-Unit tests should be added to the same directory of the test target file. It should have a prefix with "test_". To run all the tests:
+Unit tests should be added to the same directory of the test target file. It should have a prefix with "test_". To run all unit tests:
 
 ```bash
 grunt unit
@@ -42,12 +42,18 @@ Finally, you can run the acceptance tests:
 grunt accept
 ```
 
+### Running all tests
+
+```bash
+grunt test
+```
+
 #### Docker
 
 If you have [docker](https://www.docker.com/), you can initialise a jBPM instance configured to run acceptance tests against.
 
 ```bash
-$ docker run -ti -p 8080:8080 fabric8/fabric8-jbpm-designer
+$ docker run -d -ti -p 8080:8080 fabric8/fabric8-jbpm-designer
 ```
 
 ## Usage
